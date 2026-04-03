@@ -1,0 +1,19 @@
+﻿=== RAW PRE-NORMALIZED FEATURES ===
+smooth: S=4.005145  J=69.3781  V=0.970728  P=0.040000  exp=90.43
+aggressive: S=54.411434  J=689.6017  V=396.527987  P=0.040143  exp=31.27
+mixed: S=12.756665  J=201.0609  V=14.293108  P=0.038254  exp=58.11
+
+=== SUGGESTED FEATURE_REF_MAX ===
+  S: 65.293720
+  J: 827.522047
+  V: 475.833585
+  P: 0.048171
+
+=== OPTIMIZING WEIGHTS ===
+  Loaded 23 training segments from data/smooth.csv
+  Loaded 23 training segments from data/aggressive.csv
+  Loaded 35 training segments from data/mixed.csv
+Total segments: 81
+  Running SLSQP optimization...
+Optimized weights: [0.010000000083971764, 0.010000000000047853, 0.9700000000054315, 0.010000000176679236]
+MSE: default=789.42 -> optimized=241.68  improvement=69.4%
