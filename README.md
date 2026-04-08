@@ -65,6 +65,29 @@ pip install -r requirements.txt
 
 ---
 
+## 🏃 Quick Start: How to Run
+
+If you want to quickly start the project from your terminal, use the following commands:
+
+**1. Run the Interactive Dashboard (Streamlit Frontend)**
+```bash
+python -m streamlit run frontend/app.py
+```
+*(This opens the main user interface at `http://localhost:8501`)*
+
+**2. Run the API Backend Server (FastAPI)**
+```bash
+uvicorn backend.main:app --reload
+```
+*(This starts the backend at `http://localhost:8000/docs`)*
+
+**3. Run the Validation & Testing Suite**
+```bash
+python validation/validate.py
+```
+
+---
+
 ## 🚀 Usage Guide
 
 ### 1. Launching the Interactive Dashboard
