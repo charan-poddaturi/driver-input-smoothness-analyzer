@@ -29,7 +29,6 @@ from typing import Dict, List, Optional, Tuple
 from backend.preprocessing import preprocess, preprocess_for_features
 from backend.features import extract_features
 from backend.scoring import compute_smoothness_score, DEFAULT_WEIGHTS
-from backend.optimizer import extract_labeled_features
 from simulator.noise_model import add_sensor_noise
 
 

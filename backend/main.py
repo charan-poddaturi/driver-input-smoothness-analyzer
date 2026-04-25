@@ -246,8 +246,6 @@ async def optimize_weights_endpoint(
     """
     Upload one or more labeled CSV files and optimize scoring weights.
     """
-    from backend.optimizer import prepare_training_data, optimize_weights
-
     # Write uploads to temp files
     tmp_paths = []
     try:
